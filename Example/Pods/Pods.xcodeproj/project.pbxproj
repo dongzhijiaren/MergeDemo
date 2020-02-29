@@ -8,15 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		09D8B72723938BB1CD7ECF6D29C42B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1573F4A997434580EA7282C293F85D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1A789E3AF6F6095DF1044A26C0CBE358 /* Pods-MergeDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F581BA16923AEA1753ADB22B957AF /* Pods-MergeDemo_Example-dummy.m */; };
+		1B64C4E38E13755066F8A63C9FDC4899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1D0CCCB6CFDEEB22966295EBB5909E8B /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1348585AE10CEE9A31FC8CBF581B04BA /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27747DB7F9CDA7D13F774CE460EAE59B /* MergeDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 146188113D913EC841A20BAAB6FAA53B /* MergeDemo-dummy.m */; };
 		52346F869584DCDE049E852097991B08 /* Pods-MergeDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A12B473DB3C5B1C6B32F6423B19DD3F /* Pods-MergeDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58FE165669BD8CE30B1604D5E5C85CB2 /* Pods-MergeDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2128F0090AA9E7563EB9B03CF7B32181 /* Pods-MergeDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FE9BB281DC60A5F1AAA8A82AC7F7520 /* Pods-MergeDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B70A0D301B2E97CA6338442E024E2 /* Pods-MergeDemo_Tests-dummy.m */; };
-		74E0ECE086CBF2FCA1CA7BEFCAD4EC0E /* MergeDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E796494E291537CA02C90963817E15B /* MergeDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85D8061F039B65096E57C712584A7D77 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A26A88A62A0F7E092471F2C3DBC8A917 /* ReplaceMe.m */; };
 		90EFDCFCAA35E5309696E17F819D5D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D5465481B498E2E325A7F46C8B761289 /* MergeDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5E41A832CED5B82981D8161F7E8B77 /* MergeDemo-dummy.m */; };
+		A23F7A8E9A6724CF56632AA7851E7F79 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B009B881ABFF6A239E700DDBAB5E390 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D7FBDB98F599AF82FD8213A7184CCB /* libWeChatSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = A9E853E4ACA30779E573AA60B83C1093 /* libWeChatSDK.a */; };
+		D247A7032DCEEBE00FBCA148236F8D62 /* MergeDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6A5AE2A1F535EF061A0BD445F3BA17 /* MergeDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D27AE554145D813B09F5BA97288F91D0 /* README.txt in Sources */ = {isa = PBXBuildFile; fileRef = E0B274302FFFDFD9C355A4207C045707 /* README.txt */; };
+		E6C502991F4DA80D5EA3E517B4F41A15 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9522FE200FF7A48C9012BCBF174F9779 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,36 +43,40 @@
 /* Begin PBXFileReference section */
 		09A088586565353FAF14EE663E65D3B2 /* Pods-MergeDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F5AA14A8B5AEAB81D6BAF4E9299CC63 /* Pods-MergeDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E796494E291537CA02C90963817E15B /* MergeDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MergeDemo-umbrella.h"; sourceTree = "<group>"; };
-		1F5E41A832CED5B82981D8161F7E8B77 /* MergeDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MergeDemo-dummy.m"; sourceTree = "<group>"; };
+		1348585AE10CEE9A31FC8CBF581B04BA /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = MergeDemo/Classes/WechatOpenSDK/WXApi.h; sourceTree = "<group>"; };
+		146188113D913EC841A20BAAB6FAA53B /* MergeDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MergeDemo-dummy.m"; sourceTree = "<group>"; };
 		2128F0090AA9E7563EB9B03CF7B32181 /* Pods-MergeDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MergeDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		223101472FA0211637A66E7AC3100DF0 /* MergeDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MergeDemo.xcconfig; sourceTree = "<group>"; };
 		287A5E961438074CA3FAB79C11EC8018 /* Pods-MergeDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2981BD34FA6BE9B291DED9205496C05E /* MergeDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MergeDemo-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		322B70A0D301B2E97CA6338442E024E2 /* Pods-MergeDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MergeDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		329DBD7747A1D960A9D09B3C376655B7 /* Pods-MergeDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MergeDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		389FC881EBB827AB409815188882F81B /* Pods-MergeDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MergeDemo_Example.modulemap"; sourceTree = "<group>"; };
-		3AC84E462F948E59FE0B3B2F0A61EAC3 /* MergeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MergeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F36AAF10932B731E0B81BB1D2BCAB28 /* MergeDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MergeDemo-Info.plist"; sourceTree = "<group>"; };
+		3AC84E462F948E59FE0B3B2F0A61EAC3 /* MergeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MergeDemo.framework; path = MergeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251C052ADBBF32D30EADD0AFFB933D1 /* MergeDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MergeDemo-prefix.pch"; sourceTree = "<group>"; };
 		58F2CD8D3E883ABEBD6714D37855B537 /* Pods-MergeDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MergeDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		65B56B868A8CB847019C92A936463DE9 /* Pods-MergeDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MergeDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		75B096089ED6ED33A6DACB2D59F39B92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7AF4679647C923B7A041187188A6A787 /* Pods-MergeDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeDemo_Tests-Info.plist"; sourceTree = "<group>"; };
 		7E5F581BA16923AEA1753ADB22B957AF /* Pods-MergeDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MergeDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		8A6A5AE2A1F535EF061A0BD445F3BA17 /* MergeDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MergeDemo-umbrella.h"; sourceTree = "<group>"; };
+		8B009B881ABFF6A239E700DDBAB5E390 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = MergeDemo/Classes/WechatOpenSDK/WXApiObject.h; sourceTree = "<group>"; };
+		9522FE200FF7A48C9012BCBF174F9779 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = MergeDemo/Classes/WechatOpenSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		95348D53FD0C1BBC53F86F2FA44809F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9A12B473DB3C5B1C6B32F6423B19DD3F /* Pods-MergeDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MergeDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9B0C7743C72F3DDDA4402DEF806960B7 /* Pods-MergeDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MergeDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FDF63FDB8713ED0B2188F9D3E8AE756 /* MergeDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MergeDemo.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		A26857A46EA9368B5971B5B67B79A4BA /* MergeDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MergeDemo.xcconfig; sourceTree = "<group>"; };
-		A26A88A62A0F7E092471F2C3DBC8A917 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MergeDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9E853E4ACA30779E573AA60B83C1093 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = MergeDemo/Classes/WechatOpenSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		AC03297A43DE87DB5E2A6B1B5B1C510A /* Pods-MergeDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3128A76F4D2F1BC651BC99459552B5C /* Pods-MergeDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B521B96CB4EF4EA8DF935043A45C2656 /* MergeDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MergeDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C516F77B098D6DFE4D2979BCEC4C2825 /* Pods-MergeDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeDemo_Example-Info.plist"; sourceTree = "<group>"; };
-		C5BAEC84590CD00A2E0879942A3B7782 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C554BD14923595FC03349BC4625930AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CFF0AA85828A6BC117955B1F15E5F000 /* Pods-MergeDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E9C9AA12C48546358966F85B0B0F6188 /* Pods_MergeDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAFA2C1D5DC7AF3E7C54C2F9AB0DD108 /* MergeDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MergeDemo.modulemap; sourceTree = "<group>"; };
-		F93E286659DB9ED59BA924DE41C447E0 /* Pods_MergeDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E7ABBCE13E0E1D71C58A74F22462BA /* MergeDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MergeDemo.modulemap; sourceTree = "<group>"; };
+		E0B274302FFFDFD9C355A4207C045707 /* README.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = README.txt; path = MergeDemo/Classes/WechatOpenSDK/README.txt; sourceTree = "<group>"; };
+		E9C9AA12C48546358966F85B0B0F6188 /* Pods_MergeDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MergeDemo_Example.framework; path = "Pods-MergeDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB25617BF238938C903687317CCE760D /* MergeDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MergeDemo-Info.plist"; sourceTree = "<group>"; };
+		F93E286659DB9ED59BA924DE41C447E0 /* Pods_MergeDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MergeDemo_Tests.framework; path = "Pods-MergeDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,17 +96,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		608922E732C2279C35042CB8266E25E6 /* Frameworks */ = {
+		5D85DB9159EEB0699FC3DF91296087A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1573F4A997434580EA7282C293F85D68 /* Foundation.framework in Frameworks */,
+				1B64C4E38E13755066F8A63C9FDC4899 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1485E9293CE614CD92CE61367234BFDA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1EE3221C52FC374B0FE4F7D0EF31A16 /* MergeDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		1C1EC86F8399BC1616434B03999E66E5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,17 +139,6 @@
 			);
 			name = "Pods-MergeDemo_Example";
 			path = "Target Support Files/Pods-MergeDemo_Example";
-			sourceTree = "<group>";
-		};
-		31B37956602F1ED393687E421A75173D /* MergeDemo */ = {
-			isa = PBXGroup;
-			children = (
-				A26A88A62A0F7E092471F2C3DBC8A917 /* ReplaceMe.m */,
-				91B229D562AA5B5D4679589255BE73F9 /* Pod */,
-				7B46575661482B1B7BFE53CC9055B2B1 /* Support Files */,
-			);
-			name = MergeDemo;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		374CB90E08623F6498C556CD6284EFB7 /* Pods-MergeDemo_Tests */ = {
@@ -162,28 +167,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B46575661482B1B7BFE53CC9055B2B1 /* Support Files */ = {
+		8E7CAFAED75E51A963B6C543D1F9F8E0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EAFA2C1D5DC7AF3E7C54C2F9AB0DD108 /* MergeDemo.modulemap */,
-				A26857A46EA9368B5971B5B67B79A4BA /* MergeDemo.xcconfig */,
-				1F5E41A832CED5B82981D8161F7E8B77 /* MergeDemo-dummy.m */,
-				4F36AAF10932B731E0B81BB1D2BCAB28 /* MergeDemo-Info.plist */,
-				2981BD34FA6BE9B291DED9205496C05E /* MergeDemo-prefix.pch */,
-				1E796494E291537CA02C90963817E15B /* MergeDemo-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MergeDemo";
-			sourceTree = "<group>";
-		};
-		91B229D562AA5B5D4679589255BE73F9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				75B096089ED6ED33A6DACB2D59F39B92 /* LICENSE */,
-				9FDF63FDB8713ED0B2188F9D3E8AE756 /* MergeDemo.podspec */,
-				C5BAEC84590CD00A2E0879942A3B7782 /* README.md */,
+				95348D53FD0C1BBC53F86F2FA44809F1 /* LICENSE */,
+				B521B96CB4EF4EA8DF935043A45C2656 /* MergeDemo.podspec */,
+				C554BD14923595FC03349BC4625930AF /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1EE3221C52FC374B0FE4F7D0EF31A16 /* MergeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9E853E4ACA30779E573AA60B83C1093 /* libWeChatSDK.a */,
+				E0B274302FFFDFD9C355A4207C045707 /* README.txt */,
+				9522FE200FF7A48C9012BCBF174F9779 /* WechatAuthSDK.h */,
+				1348585AE10CEE9A31FC8CBF581B04BA /* WXApi.h */,
+				8B009B881ABFF6A239E700DDBAB5E390 /* WXApiObject.h */,
+				8E7CAFAED75E51A963B6C543D1F9F8E0 /* Pod */,
+				ED4196ACDE39E152A8ADD98CADE80222 /* Support Files */,
+			);
+			name = MergeDemo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -198,7 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FD38D64978AA4299E901F71927586BC0 /* Development Pods */,
+				1485E9293CE614CD92CE61367234BFDA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				50F1236F7F2D2D2F865E71F4974A8299 /* Products */,
 				1C1EC86F8399BC1616434B03999E66E5 /* Targets Support Files */,
@@ -213,22 +219,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FD38D64978AA4299E901F71927586BC0 /* Development Pods */ = {
+		ED4196ACDE39E152A8ADD98CADE80222 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				31B37956602F1ED393687E421A75173D /* MergeDemo */,
+				D9E7ABBCE13E0E1D71C58A74F22462BA /* MergeDemo.modulemap */,
+				223101472FA0211637A66E7AC3100DF0 /* MergeDemo.xcconfig */,
+				146188113D913EC841A20BAAB6FAA53B /* MergeDemo-dummy.m */,
+				EB25617BF238938C903687317CCE760D /* MergeDemo-Info.plist */,
+				5251C052ADBBF32D30EADD0AFFB933D1 /* MergeDemo-prefix.pch */,
+				8A6A5AE2A1F535EF061A0BD445F3BA17 /* MergeDemo-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MergeDemo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3C6A4B9BDB10DA6D5E68E554EC791395 /* Headers */ = {
+		0994FDA1F31EBAE69B5145FA68AA4207 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E0ECE086CBF2FCA1CA7BEFCAD4EC0E /* MergeDemo-umbrella.h in Headers */,
+				D247A7032DCEEBE00FBCA148236F8D62 /* MergeDemo-umbrella.h in Headers */,
+				E6C502991F4DA80D5EA3E517B4F41A15 /* WechatAuthSDK.h in Headers */,
+				1D0CCCB6CFDEEB22966295EBB5909E8B /* WXApi.h in Headers */,
+				A23F7A8E9A6724CF56632AA7851E7F79 /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +306,12 @@
 		};
 		E3970B2464B5D9F3FE437F2301216434 /* MergeDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3990C06BCDAD226F1DCA257CA9A71AD /* Build configuration list for PBXNativeTarget "MergeDemo" */;
+			buildConfigurationList = FE0C0D8F8D6E8C31B505E1A2B44B800C /* Build configuration list for PBXNativeTarget "MergeDemo" */;
 			buildPhases = (
-				3C6A4B9BDB10DA6D5E68E554EC791395 /* Headers */,
-				081F120BDA3DA7C13769A6AC56C0988A /* Sources */,
-				608922E732C2279C35042CB8266E25E6 /* Frameworks */,
-				0A7B304C6C67CCC30FEEB9873447A20C /* Resources */,
+				0994FDA1F31EBAE69B5145FA68AA4207 /* Headers */,
+				C2D015635E61493DDD1012AFB90FCFD8 /* Sources */,
+				5D85DB9159EEB0699FC3DF91296087A0 /* Frameworks */,
+				36C935C86E9CDCA282A17B6C52689BDA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,7 +352,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A7B304C6C67CCC30FEEB9873447A20C /* Resources */ = {
+		36C935C86E9CDCA282A17B6C52689BDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,20 +376,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		081F120BDA3DA7C13769A6AC56C0988A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5465481B498E2E325A7F46C8B761289 /* MergeDemo-dummy.m in Sources */,
-				85D8061F039B65096E57C712584A7D77 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42FF766B3D16A80E608EA6E4197ECFB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A789E3AF6F6095DF1044A26C0CBE358 /* Pods-MergeDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D015635E61493DDD1012AFB90FCFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D7FBDB98F599AF82FD8213A7184CCB /* libWeChatSDK.a in Sources */,
+				27747DB7F9CDA7D13F774CE460EAE59B /* MergeDemo-dummy.m in Sources */,
+				D27AE554145D813B09F5BA97288F91D0 /* README.txt in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +420,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00035DDF135F3739D0FF936C0553C4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223101472FA0211637A66E7AC3100DF0 /* MergeDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MergeDemo/MergeDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MergeDemo/MergeDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MergeDemo/MergeDemo.modulemap";
+				PRODUCT_MODULE_NAME = MergeDemo;
+				PRODUCT_NAME = MergeDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3B71ED5B68F91C2FB595924B8E4183AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F5AA14A8B5AEAB81D6BAF4E9299CC63 /* Pods-MergeDemo_Example.release.xcconfig */;
@@ -431,38 +479,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4A20687523494EC63DCE9D31F3AF27D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A26857A46EA9368B5971B5B67B79A4BA /* MergeDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MergeDemo/MergeDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MergeDemo/MergeDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MergeDemo/MergeDemo.modulemap";
-				PRODUCT_MODULE_NAME = MergeDemo;
-				PRODUCT_NAME = MergeDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -523,7 +539,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -626,9 +643,9 @@
 			};
 			name = Debug;
 		};
-		84E6BB89BBC722D3824EE1CFA99BAFDE /* Debug */ = {
+		8E46A0957360B31FABA2AFBC5B2C4935 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A26857A46EA9368B5971B5B67B79A4BA /* MergeDemo.xcconfig */;
+			baseConfigurationReference = 223101472FA0211637A66E7AC3100DF0 /* MergeDemo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,7 +659,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MergeDemo/MergeDemo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MergeDemo/MergeDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MergeDemo/MergeDemo.modulemap";
 				PRODUCT_MODULE_NAME = MergeDemo;
@@ -754,11 +771,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3990C06BCDAD226F1DCA257CA9A71AD /* Build configuration list for PBXNativeTarget "MergeDemo" */ = {
+		FE0C0D8F8D6E8C31B505E1A2B44B800C /* Build configuration list for PBXNativeTarget "MergeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84E6BB89BBC722D3824EE1CFA99BAFDE /* Debug */,
-				4A20687523494EC63DCE9D31F3AF27D7 /* Release */,
+				8E46A0957360B31FABA2AFBC5B2C4935 /* Debug */,
+				00035DDF135F3739D0FF936C0553C4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

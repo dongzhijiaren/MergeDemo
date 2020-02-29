@@ -1,8 +1,8 @@
 {
   "name": "MergeDemo",
   "version": "0.1.0",
-  "summary": "A short description of MergeDemo.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "MergeDemo.",
+  "description": "创建微信开放平台私有库20200229",
   "homepage": "https://github.com/dongzhijiaren/MergeDemo",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "MergeDemo/Classes/**/*"
 }
