@@ -1,0 +1,6 @@
+framework module MergeDemo {
+  umbrella header "MergeDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

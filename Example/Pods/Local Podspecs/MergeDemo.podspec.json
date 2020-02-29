@@ -1,0 +1,22 @@
+{
+  "name": "MergeDemo",
+  "version": "0.1.0",
+  "summary": "A short description of MergeDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongzhijiaren/MergeDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongzhijiaren": "gogoxiaodong@126.com"
+  },
+  "source": {
+    "git": "https://github.com/dongzhijiaren/MergeDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MergeDemo/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MergeDemo (0.1.0)
+
+DEPENDENCIES:
+  - MergeDemo (from `../`)
+
+EXTERNAL SOURCES:
+  MergeDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MergeDemo: 196b0c47f4f6fe889cef1c08f337c7e0009300e3
+
+PODFILE CHECKSUM: a5393b706f5fc224bcb17e8d81a9b4d45cb52d33
+
+COCOAPODS: 1.8.4
